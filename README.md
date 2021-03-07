@@ -2,7 +2,7 @@
 ## Author
 FRANCIS MAKONJIO
 ## Description
-Its a website that expalins more about my fev music band 
+Its a website that expalins information about Anita's kitchen
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
