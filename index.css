@@ -8,19 +8,14 @@ body{
     .container {
       padding-top: 0;
     }
-    
-    /*-------MEDIA, OVERLAY AND TEXT----------*/
     .media{
-    padding-bottom: 3%;
-    height: 100vh;
+    padding-bottom: 4%;
+    height: 100%;
     width:100%;
     background-image: url(../images.anita/landing.jpg);
      background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     margin-top: 0;
     }
@@ -70,13 +65,17 @@ body{
     height: 50px;
     width: 75px;
     }
-    /*-------END MEDIA, OVERLAY AND TEXT----------*/
+    .row{
+    display: flex;
+    -ms-flex-direction: row;
+    
+    }
     
     .bg-1{
-    padding: 0;
+    padding: 1;
     }
     .bg-10{
-    padding: 0;
+    padding: 1;
     }
     .bg-00{
     background-color:#F15A29;
@@ -85,6 +84,7 @@ body{
     .happy{
     height: 119px;
     width:300px;
+    text-align: center;
 
     }
     
@@ -96,7 +96,7 @@ body{
     overflow: hidden;
     width: 100%;
     height: 100%;
-    transition: .5s ease;
+
     }
     
     .bg-1:hover .overlay-mini {
@@ -124,9 +124,18 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+
     }
-    .textt {
+    #text{
+        color: black;
+        text-align: center;
+        width: 100%;
+        height: 90px;
+        background-color: #F15A29;
+        font-family:  ;
+        
+    }
+    .text {
     text-align: center;
     margin-top: 2%;
     color: #ffffff;
@@ -134,10 +143,12 @@ body{
     #text1{
     padding: 5%;
     text-align: left;
+    justify-content: left;
     }
     #text2{
     padding: 5%;
     text-align: right;
+    justify-content: left;
     }
     #text3{
     padding: 5%;
@@ -176,15 +187,18 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     background-color: #ffffff;
+    align-items: inherit
     }
     #burger{
-        text-align: center;
-        padding: 50px;
+        text-align: flex-inline;
+        padding: 10%;
+    
     }
     .partyhead{
     height: 50px;
     width: 100%;
     background-color: #ccc;
+
     }
     .customers{
     padding: 10%;
