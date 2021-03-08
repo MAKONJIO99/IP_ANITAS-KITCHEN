@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images.anita/landing.jpg);
+    background-image: url(./images.anita/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Times New Roman';
@@ -15,7 +15,7 @@ body{
     padding-bottom: 4%;
     height: 100%;
     width:100%;
-    background-image: url(../images.anita/landing.jpg);
+    background-image: url(./images.anita/landing.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -26,7 +26,7 @@ body{
     padding: 0;
     height: 600px;
     width:100%;
-    background-image: url(../images.anita/foodsBg.jpg);
+    background-image: url(./images.anita/foodsBg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -35,7 +35,7 @@ body{
     padding: 0;
     height: 300px;
     width:100%;
-    background-image: url(../images.anita/subscribe.jpg);
+    background-image: url(./images.anita/subscribe.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -180,7 +180,7 @@ body{
     #burger{
     text-align: flex-inline;
     padding: 10%;
-    background-image: url(../images.anita/foodsBg.jpg);
+    background-image: url(./images.anita/foodsBg.jpg);
     }
     .partyhead{
     height: 50px;
