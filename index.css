@@ -1,11 +1,13 @@
-*{
+body{
+    background-image: url(../images.anita/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Times New Roman';
     overflow:visible;
-    }
-    body{
     margin: 0;
     font-family: 'calibri body';
     }
+
     .container {
     padding-top: 0;
     }
@@ -13,7 +15,7 @@
     padding-bottom: 4%;
     height: 100%;
     width:100%;
-    background-image: url('../images.anita/landing.jpg');
+    background-image: url(../images.anita/landing.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -24,16 +26,16 @@
     padding: 0;
     height: 600px;
     width:100%;
-    background-image: url('../images.anita/foodsBg.jpg');
+    background-image: url(../images.anita/foodsBg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     }
-    .media3{
+    .column{
     padding: 0;
     height: 300px;
     width:100%;
-    background-image: url('../images.anita/subscribe.jpg');
+    background-image: url(../images.anita/subscribe.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -106,6 +108,12 @@
     background-color: #F15A29;
     font-family: 'Times New Roman', Times, serif;
     }
+    .fastfood{
+        background-color: #ffff;
+    }
+    .drink-img{
+        background-color: #ffffff;
+    }
     .text {
     text-align: center;
     margin-top: 2%;
@@ -118,16 +126,22 @@
     padding: 5%;
     text-align: left;
     justify-content: left;
+    background-color: #ffffff;
+    height: 100%;
     }
     #text2{
     padding: 5%;
     text-align: right;
     justify-content: left;
+    background-color: #ffffff;
     }
     
     #text3{
     padding: 5%;
     text-align: center;
+    background-color: #ffff;
+    border: solid transparent;
+    box-shadow:lime 20px;
     }
     .fasts{
     margin-bottom: 10%;
@@ -160,12 +174,13 @@
     margin-bottom: 100px;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: #ffffff;
+    
     align-items: inherit
     }
     #burger{
     text-align: flex-inline;
     padding: 10%;
+    background-image: url(../images.anita/foodsBg.jpg);
     }
     .partyhead{
     height: 50px;
@@ -256,7 +271,16 @@
     transition: 0.3s;
     }
     
-   
+   .hpp{
+       background-color: #ffffff;
+       height: 100%;
+       display: flex;
+       flex-direction: column-reverse ;
+   }
+   #pty{
+       background-color: #F15A29;
+       height: 100px;
+   }
 
     
     .button {
@@ -282,7 +306,6 @@
         font-size: 36px;
         color: #000000;
         display: block;
-        
-        
     }
+    
     
